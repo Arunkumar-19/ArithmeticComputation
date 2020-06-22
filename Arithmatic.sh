@@ -4,6 +4,6 @@ read -p "Enter a : " a
 read -p "Enter b : " b
 read -p "Enter c : " c
 
-x=$((a+b*c))
+x=$((a*b+c))
 
-echo "computation of (a+b*C) is $x"
+echo "computation of (a*b+C) is $x"
