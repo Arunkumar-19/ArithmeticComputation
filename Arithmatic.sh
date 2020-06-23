@@ -4,6 +4,7 @@ read -p "Enter a : " a
 read -p "Enter b : " b
 read -p "Enter c : " c
 
-x=$((a*b+c))
 
-echo "computation of (a*b+C) is $x"
+
+x=`echo $a $b $c | awk '{print $3+$1/$2}'`
+echo $x
