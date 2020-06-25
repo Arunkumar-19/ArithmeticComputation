@@ -30,4 +30,4 @@ do
     done
 done
 echo "Array in sorted order :"
-echo ${Arithmetic[@]} | sort -nr
+echo ${Arithmetic[@]}
